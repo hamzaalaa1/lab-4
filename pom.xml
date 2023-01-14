@@ -16,12 +16,12 @@
     <artifactId>hibernate-core</artifactId>
     <version>6.1.6.Final</version>
 </dependency>
-  
-    <dependency>
+  <!--hamza comment-->
+    <!-- <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
-    </dependency>
+    </dependency> -->
   </dependencies>
   <build>
     <plugins>
