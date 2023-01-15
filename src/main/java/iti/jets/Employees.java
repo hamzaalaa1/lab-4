@@ -10,7 +10,7 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
-import java.sql.Date;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 

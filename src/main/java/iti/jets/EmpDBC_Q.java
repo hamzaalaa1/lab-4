@@ -18,6 +18,15 @@ public class EmpDBC_Q {
       em.getTransaction().begin();
       findByEmployeeNAme.executeUpdate();
       em.getTransaction().commit();
+      em.close();
+   }
+
+   // Note : there is no insert in JPQL
+   public void insertEmployee(Employees s){
+      em.getTransaction().begin();
+      em.persist(s);
+      em.getTransaction().commit();
+      em.close();
    }
 
 
